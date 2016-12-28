@@ -35,5 +35,8 @@
 *.layout
 *.depend
 
+#vim temp files
+*.swp
+
 # build directories
 **/build
