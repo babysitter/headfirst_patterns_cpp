@@ -6,8 +6,8 @@
 
 class WildTurkey : public Turkey {
 public:
-    virtual void gobble();
-    virtual void fly();
+    void gobble() override;
+    void fly() override;
 };
 
 void WildTurkey::gobble() {

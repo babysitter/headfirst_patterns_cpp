@@ -3,8 +3,8 @@
 // turkey to duck adapter
 class TurkeyClassAdapter : public Duck, private WildTurkey {
 public:
-    virtual void quack();
-    virtual void fly();
+    void quack() override;
+    void fly() override;
 };
 
 void TurkeyClassAdapter::quack() {

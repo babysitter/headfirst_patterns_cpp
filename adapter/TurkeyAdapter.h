@@ -6,11 +6,12 @@ class TurkeyAdapter : public Duck {
     Turkey& m_turkey;
 public:
     TurkeyAdapter(Turkey&);
-    virtual void quack();
-    virtual void fly();
+    void quack() override;
+    void fly() override;
 };
 
-TurkeyAdapter::TurkeyAdapter(Turkey& turkey) : m_turkey(turkey) { }
+TurkeyAdapter::TurkeyAdapter(Turkey& turkey)
+    : m_turkey(turkey) { }
 
 void TurkeyAdapter::quack() {
     m_turkey.gobble();
