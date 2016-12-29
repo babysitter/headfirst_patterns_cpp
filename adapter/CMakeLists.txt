@@ -7,6 +7,7 @@ project( ${PROJECT_NAME} CXX )
 set( MODERN_SOURCES
     AdapterTestDrive.cpp
 )
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall")
 
 add_executable( ${PROJECT_NAME} ${MODERN_SOURCES} )
 set_target_properties(${PROJECT_NAME} PROPERTIES
