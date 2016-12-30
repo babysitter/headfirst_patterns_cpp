@@ -1,8 +1,8 @@
 cmake_minimum_required (VERSION 3.1) 
 
-set( PROJECT_NAME factory_method)
+set( PROJECT_NAME factory_method )
 
-project( ${PROJECT_NAME} CXX)
+project( ${PROJECT_NAME} CXX )
 
 set( MODERN_SOURCES
     PizzaTestDrive.cpp

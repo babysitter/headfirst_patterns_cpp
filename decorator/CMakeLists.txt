@@ -2,7 +2,7 @@ cmake_minimum_required (VERSION 3.1)
 
 set( PROJECT_NAME decorator )
 
-project( ${PROJECT_NAME} CXX)
+project( ${PROJECT_NAME} CXX )
 
 set( MODERN_SOURCES
     StarBuzz.cpp

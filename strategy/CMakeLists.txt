@@ -1,8 +1,8 @@
 cmake_minimum_required (VERSION 3.1) 
 
-set( PROJECT_NAME strategy)
+set( PROJECT_NAME strategy )
 
-project( ${PROJECT_NAME} CXX)
+project( ${PROJECT_NAME} CXX )
 
 set( MODERN_SOURCES
     DuckSimulator.cpp
